@@ -1,0 +1,114 @@
+	.oscuro{
+  background: #343A40;
+  font-family: 'Helvetica', sans-serif;
+  padding: 0;
+  margin: 0;
+  }
+  .claro{
+  background: #F0F2F5;
+  font-family: 'Helvetica', sans-serif;
+  padding: 0;
+  margin: 0;
+  }
+  .nvoscuro{
+  background: #353333;
+  }
+  .nvclaro{
+  background: #FFFFFF;
+  }
+
+
+.blackcont{
+
+border-bottom-style: inset ;
+border-bottom: 3px solid #2C2C2C;;
+border-top-style: inset ;
+border-top: 3px solid #2C2C2C;;
+border-left-style: inset ;
+border-left: 3px solid #2C2C2C;;
+border-right-style: inset ;
+border-right:  3px solid #2C2C2C;;
+
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+
+ box-shadow: 7px 7px 15px #000000;
+ background-color: #2C2C2C;
+}
+
+.blackcontb{
+
+border-bottom-style: inset ;
+border-bottom: 3px solid #2C2C2C;;
+border-top-style: inset ;
+border-top: 3px solid #2C2C2C;;
+border-left-style: inset ;
+border-left: 3px solid #2C2C2C;;
+border-right-style: inset ;
+border-right:  3px solid #2C2C2C;;
+
+ box-shadow: 7px 7px 15px #000000; 
+}
+
+.letra {
+  margin: 0;
+  font-size: small;
+  font-weight: 100;
+}
+
+
+.newmodal {
+  width: 100vw;
+	height: 100vh;	
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.bodymodal {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+
+.contenedorModal{
+	border: solid 3px;
+	min-width: 40vw;
+	min-height: 60vh;
+
+	background-color: white;
+  	border-bottom-style: inset ;
+  	border-bottom: 3px solid #B7B2B2;;
+  	border-top-style: inset ;
+  	border-top: 3px solid #B7B2B2;;
+  	border-left-style: inset ;
+  	border-left: 3px solid #B7B2B2;;
+  	border-right-style: inset ;
+  	border-right:  3px solid #B7B2B2;;
+  	border-bottom-left-radius: 15px;
+  	border-bottom-right-radius: 15px;
+  	border-top-left-radius: 15px;
+  	border-top-right-radius: 15px;
+	box-shadow: 7px 7px 15px #A5A1A1;
+}
+
+body {
+    margin: 0;
+    font-size: small;
+    font-weight: normal ;
+}
+/* 
+thead tr th{
+  position:sticky;
+  top: 0;
+  z-index: 10;
+} */
